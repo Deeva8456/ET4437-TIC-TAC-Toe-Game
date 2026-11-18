@@ -1,0 +1,73 @@
+@options
+@packages
+-classpath
+'C:/Users/super/.m2/repository/jakarta/platform/jakarta.jakartaee-api/10.0.0/jakarta.jakartaee-api-10.0.0.jar;C:/Users/super/.m2/repository/jakarta/platform/jakarta.jakartaee-web-api/10.0.0/jakarta.jakartaee-web-api-10.0.0.jar;C:/Users/super/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar;C:/Users/super/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.0/jakarta.servlet.jsp-api-3.1.0.jar;C:/Users/super/.m2/repository/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar;C:/Users/super/.m2/repository/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar;C:/Users/super/.m2/repository/jakarta/faces/jakarta.faces-api/4.0.1/jakarta.faces-api-4.0.1.jar;C:/Users/super/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar;C:/Users/super/.m2/repository/jakarta/websocket/jakarta.websocket-api/2.1.0/jakarta.websocket-api-2.1.0.jar;C:/Users/super/.m2/repository/jakarta/websocket/jakarta.websocket-client-api/2.1.0/jakarta.websocket-client-api-2.1.0.jar;C:/Users/super/.m2/repository/jakarta/json/jakarta.json-api/2.1.0/jakarta.json-api-2.1.0.jar;C:/Users/super/.m2/repository/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.jar;C:/Users/super/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar;C:/Users/super/.m2/repository/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar;C:/Users/super/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar;C:/Users/super/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar;C:/Users/super/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar;C:/Users/super/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar;C:/Users/super/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar;C:/Users/super/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar;C:/Users/super/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar;C:/Users/super/.m2/repository/jakarta/authentication/jakarta.authentication-api/3.0.0/jakarta.authentication-api-3.0.0.jar;C:/Users/super/.m2/repository/jakarta/security/enterprise/jakarta.security.enterprise-api/3.0.0/jakarta.security.enterprise-api-3.0.0.jar;C:/Users/super/.m2/repository/jakarta/jms/jakarta.jms-api/3.1.0/jakarta.jms-api-3.1.0.jar;C:/Users/super/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar;C:/Users/super/.m2/repository/jakarta/mail/jakarta.mail-api/2.1.0/jakarta.mail-api-2.1.0.jar;C:/Users/super/.m2/repository/jakarta/resource/jakarta.resource-api/2.1.0/jakarta.resource-api-2.1.0.jar;C:/Users/super/.m2/repository/jakarta/authorization/jakarta.authorization-api/2.1.0/jakarta.authorization-api-2.1.0.jar;C:/Users/super/.m2/repository/jakarta/batch/jakarta.batch-api/2.1.1/jakarta.batch-api-2.1.1.jar;C:/Users/super/.m2/repository/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.jar;C:/Users/super/.m2/repository/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/super/OneDrive - University of Limerick/Documents/NetBeansProjects/TicTacToeWS/src/main/java;C:/Users/super/OneDrive - University of Limerick/Documents/NetBeansProjects/TicTacToeWS/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/super/OneDrive - University of Limerick/Documents/NetBeansProjects/TicTacToeWS/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'TicTacToeWS-1 1 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/super/OneDrive - University of Limerick/Documents/NetBeansProjects/TicTacToeWS/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'TicTacToeWS-1 1 API'
+com.tttws
+C:\Users\super\.m2\repository\jakarta\platform\jakarta.jakartaee-api\10.0.0\jakarta.jakartaee-api-10.0.0.jar = 1794318624911
+C:\Users\super\.m2\repository\jakarta\platform\jakarta.jakartaee-web-api\10.0.0\jakarta.jakartaee-web-api-10.0.0.jar = 1794318625244
+C:\Users\super\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar = 1794318625078
+C:\Users\super\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\3.1.0\jakarta.servlet.jsp-api-3.1.0.jar = 1794318625007
+C:\Users\super\.m2\repository\jakarta\el\jakarta.el-api\5.0.1\jakarta.el-api-5.0.1.jar = 1794318624958
+C:\Users\super\.m2\repository\jakarta\servlet\jsp\jstl\jakarta.servlet.jsp.jstl-api\3.0.0\jakarta.servlet.jsp.jstl-api-3.0.0.jar = 1794318624988
+C:\Users\super\.m2\repository\jakarta\faces\jakarta.faces-api\4.0.1\jakarta.faces-api-4.0.1.jar = 1794318625068
+C:\Users\super\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\3.1.0\jakarta.ws.rs-api-3.1.0.jar = 1794318625080
+C:\Users\super\.m2\repository\jakarta\websocket\jakarta.websocket-api\2.1.0\jakarta.websocket-api-2.1.0.jar = 1794318625068
+C:\Users\super\.m2\repository\jakarta\websocket\jakarta.websocket-client-api\2.1.0\jakarta.websocket-client-api-2.1.0.jar = 1794318625115
+C:\Users\super\.m2\repository\jakarta\json\jakarta.json-api\2.1.0\jakarta.json-api-2.1.0.jar = 1794318625112
+C:\Users\super\.m2\repository\jakarta\json\bind\jakarta.json.bind-api\3.0.0\jakarta.json.bind-api-3.0.0.jar = 1794318625123
+C:\Users\super\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar = 1794318625125
+C:\Users\super\.m2\repository\jakarta\ejb\jakarta.ejb-api\4.0.1\jakarta.ejb-api-4.0.1.jar = 1794318625161
+C:\Users\super\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar = 1794318625154
+C:\Users\super\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar = 1794318625191
+C:\Users\super\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar = 1794318625181
+C:\Users\super\.m2\repository\jakarta\interceptor\jakarta.interceptor-api\2.1.0\jakarta.interceptor-api-2.1.0.jar = 1794318625240
+C:\Users\super\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-api\4.0.1\jakarta.enterprise.cdi-api-4.0.1.jar = 1794318625247
+C:\Users\super\.m2\repository\jakarta\enterprise\jakarta.enterprise.lang-model\4.0.1\jakarta.enterprise.lang-model-4.0.1.jar = 1794318625242
+C:\Users\super\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar = 1794318625241
+C:\Users\super\.m2\repository\jakarta\authentication\jakarta.authentication-api\3.0.0\jakarta.authentication-api-3.0.0.jar = 1794318625284
+C:\Users\super\.m2\repository\jakarta\security\enterprise\jakarta.security.enterprise-api\3.0.0\jakarta.security.enterprise-api-3.0.0.jar = 1794318625295
+C:\Users\super\.m2\repository\jakarta\jms\jakarta.jms-api\3.1.0\jakarta.jms-api-3.1.0.jar = 1794318625287
+C:\Users\super\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar = 1794318625287
+C:\Users\super\.m2\repository\jakarta\mail\jakarta.mail-api\2.1.0\jakarta.mail-api-2.1.0.jar = 1794318625297
+C:\Users\super\.m2\repository\jakarta\resource\jakarta.resource-api\2.1.0\jakarta.resource-api-2.1.0.jar = 1794318625331
+C:\Users\super\.m2\repository\jakarta\authorization\jakarta.authorization-api\2.1.0\jakarta.authorization-api-2.1.0.jar = 1794318625316
+C:\Users\super\.m2\repository\jakarta\batch\jakarta.batch-api\2.1.1\jakarta.batch-api-2.1.1.jar = 1794318625315
+C:\Users\super\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar = 1793371134492
+C:\Users\super\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar = 1793371134656
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\src\main\java = 1795013739329
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\generated-sources\annotations = 1795014207664
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\allclasses-index.html = 1795014222340
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\allpackages-index.html = 1795014222344
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\element-list = 1795014222224
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\help-doc.html = 1795014222458
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\index-all.html = 1795014222425
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\index.html = 1795014222433
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\member-search-index.js = 1795014222353
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\module-search-index.js = 1795014222347
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\overview-tree.html = 1795014222308
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\package-search-index.js = 1795014222350
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\search.html = 1795014222429
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\tag-search-index.js = 1795014222355
+C:\Users\super\OneDrive - University of Limerick\Documents\NetBeansProjects\TicTacToeWS\target\apidocs\type-search-index.js = 1795014222352

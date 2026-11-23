@@ -34,12 +34,11 @@ public class WelcomeFrame extends JFrame {
         JButton loginButton = new JButton("Login");
         JButton registerButton = new JButton("Register");
 
-        // Temporary Login action
+       // Open the Login window
         loginButton.addActionListener(e -> {
-            JOptionPane.showMessageDialog(
-                this, "Login button works!"
-            );
-        });
+        new LoginFrame().setVisible(true);
+        dispose();
+    });
 
         // Temporary Register action
         registerButton.addActionListener(e -> {

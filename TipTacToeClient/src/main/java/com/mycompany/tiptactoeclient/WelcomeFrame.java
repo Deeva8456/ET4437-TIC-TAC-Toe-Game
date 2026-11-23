@@ -40,11 +40,11 @@ public class WelcomeFrame extends JFrame {
         dispose();
     });
 
-        // Temporary Register action
+       
+        // Open the Registration window
         registerButton.addActionListener(e -> {
-            JOptionPane.showMessageDialog(
-                this, "Register button works!"
-            );
+            new RegisterFrame().setVisible(true);
+            dispose();
         });
 
         // Add components

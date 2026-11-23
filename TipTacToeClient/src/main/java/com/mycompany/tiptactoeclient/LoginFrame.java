@@ -77,14 +77,56 @@ public class LoginFrame extends JFrame {
                     "Please enter your username and password."
                 );
 
-            } else {
+} else {
 
-                // Temporary message until SOAP is connected
-                JOptionPane.showMessageDialog(
-                    this,
-                    "Login screen works! SOAP connection is next."
-                );
-            }
+    try {
+        // Connect to the web service
+        WebServiceClient client = new WebServiceClient();
+
+        // Check username and password
+        int userId = client.login(
+            username,
+            new String(password)
+        );
+
+        if (userId > 0) {
+
+            // Login successful
+            JOptionPane.showMessageDialog(
+                this,
+                "Login successful! Welcome " + username
+            );
+
+            // We will open the Main Menu here later
+
+        } else if (userId == 0) {
+
+            // Incorrect login details
+            JOptionPane.showMessageDialog(
+                this,
+                "Incorrect username or password."
+            );
+
+        } else {
+
+            JOptionPane.showMessageDialog(
+                this,
+                "Login could not be completed."
+            );
+        }
+
+    } catch (Exception ex) {
+
+        JOptionPane.showMessageDialog(
+            this,
+            "Could not connect to the web service."
+        );
+    }
+}
+
+           
+
+                
 
             java.util.Arrays.fill(password, '\0');
         });

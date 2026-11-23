@@ -25,4 +25,13 @@ proxy = service.getTicTacToeWSPort();
 public int login(String username, String password){
     return proxy.login(username, password);
 }
+ 
+    // Register a new user using the SOAP web service
+    public String register(String username, String password,
+                           String firstName, String surname) {
+
+        return proxy.register(username, password,
+                              firstName, surname);
+    }
+   
 }

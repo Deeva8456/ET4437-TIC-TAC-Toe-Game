@@ -90,15 +90,65 @@ public class RegisterFrame extends JFrame {
                     "Please fill in all fields."
                 );
 
-            } else {
+           
+} else {
 
-                // Temporary message until SOAP is connected
+    try {
+        // Connect to the web service
+        WebServiceClient client = new WebServiceClient();
+
+        // Register the new user
+        String result = client.register(
+            username,
+            new String(password),
+            firstName,
+            surname
+        );
+
+        if ("ERROR-REPEAT".equals(result)) {
+
+            JOptionPane.showMessageDialog(
+                this,
+                "Username already exists. Please choose another."
+            );
+
+        } else {
+
+            try {
+                int userId = Integer.parseInt(result);
+
+                if (userId > 0) {
+                    JOptionPane.showMessageDialog(
+                        this,
+                        "Registration successful! Welcome " + username
+                    );
+
+                    // Main menu will open here later
+
+                } else {
+                    JOptionPane.showMessageDialog(
+                        this,
+                        "Registration failed."
+                    );
+                }
+
+            } catch (NumberFormatException ex) {
+
                 JOptionPane.showMessageDialog(
                     this,
-                    "Registration screen works! " +
-                    "SOAP connection is next."
+                    "Registration failed: " + result
                 );
             }
+        }
+
+    } catch (Exception ex) {
+
+        JOptionPane.showMessageDialog(
+            this,
+            "Could not connect to the web service."
+        );
+    }
+}
 
             Arrays.fill(password, '\0');
         });

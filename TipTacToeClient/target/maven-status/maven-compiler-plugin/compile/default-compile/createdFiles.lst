@@ -1,3 +1,9 @@
+com\mycompany\tiptactoeclient\GameWindow.class
 com\tttws\TicTacToeWebService.class
+com\mycompany\tiptactoeclient\LeaderBoard$1.class
 com\mycompany\tiptactoeclient\TipTacToeClient.class
 com\tttws\TicTacToeWS.class
+com\mycompany\tiptactoeclient\ScoreBoard.class
+com\mycompany\tiptactoeclient\GameWindow$1.class
+com\mycompany\tiptactoeclient\LeaderBoard.class
+com\mycompany\tiptactoeclient\WebServiceClient.class

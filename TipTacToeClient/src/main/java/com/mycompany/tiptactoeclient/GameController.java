@@ -23,4 +23,26 @@ public class GameController {
     }
     return Integer.parseInt(result.trim());
 }
+    
+    public void joinGame(int userId, int gameId){
+    String state = client.getGameState(gameId);
+    
+    if(!"-1".equals(state.trim())){
+    throw new IllegalStateException("this game is no longer available");
+    }
+    
+    String board = client.getBoard(gameId);
+    
+    if ("ERROR-NOMOVES".equals(board.trim())){
+    throw new IllegalStateException("could not retrieve game board");
+    }
+    
+    
+    String result = client.joinGame(userId,gameId);
+    
+    if(!"1".equals(result.trim())){
+throw new IllegalStateException("could not join game: "+result);
 }
+    }
+}
+

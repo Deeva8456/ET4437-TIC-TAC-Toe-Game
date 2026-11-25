@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.tiptactoeclient;
 
-/**
- *
- * @author super
- */
+import javax.swing.SwingUtilities;
+
 public class TipTacToeClient {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        SwingUtilities.invokeLater(() -> {
+            new WelcomeFrame().setVisible(true);
+        });
     }
 }

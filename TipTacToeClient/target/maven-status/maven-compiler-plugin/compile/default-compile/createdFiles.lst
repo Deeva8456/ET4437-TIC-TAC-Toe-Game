@@ -1,12 +1,17 @@
+com\mycompany\tiptactoeclient\GameCleanup.class
 com\mycompany\tiptactoeclient\GameWindow.class
 com\mycompany\tiptactoeclient\LeaderBoard$1.class
 com\mycompany\tiptactoeclient\TipTacToeClient.class
 com\tttws\TicTacToeWS.class
+com\mycompany\tiptactoeclient\MainFrame$4.class
 com\mycompany\tiptactoeclient\ScoreBoard.class
 com\mycompany\tiptactoeclient\GameController.class
+com\mycompany\tiptactoeclient\MainFrame$5.class
 com\mycompany\tiptactoeclient\LeaderBoard.class
 com\tttws\TicTacToeWebService.class
 com\mycompany\tiptactoeclient\MainFrame$1.class
+com\mycompany\tiptactoeclient\MainFrame$2.class
+com\mycompany\tiptactoeclient\MainFrame$3.class
 com\mycompany\tiptactoeclient\MainFrame.class
 com\mycompany\tiptactoeclient\GameWindow$1.class
 com\mycompany\tiptactoeclient\OpenGamesParser.class

@@ -33,5 +33,14 @@ public int login(String username, String password){
         return proxy.register(username, password,
                               firstName, surname);
     }
+ 
+public String leagueTable() {
+    return proxy.leagueTable();
+}
+
+public String showAllMyGames(int uid) {
+    return proxy.showAllMyGames(uid);
+}
+
    
 }

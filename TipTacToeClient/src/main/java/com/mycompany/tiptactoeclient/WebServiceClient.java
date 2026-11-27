@@ -22,7 +22,7 @@ public synchronized int login(String username, String password){
 }
 
 public synchronized String register(String username, String password, String name, String surname){
-    return proxy.register(username, password, name, username);
+    return proxy.register(username, password, name, surname);
 }
 public synchronized String newGame(int userId){return proxy.newGame(userId);}
 public synchronized String joinGame(int userId, int gameId){return proxy.joinGame(userId, gameId);}

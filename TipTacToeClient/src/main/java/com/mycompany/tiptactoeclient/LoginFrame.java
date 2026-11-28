@@ -92,10 +92,10 @@ public class LoginFrame extends JFrame {
         if (userId > 0) {
 
             // Login successful
-            JOptionPane.showMessageDialog(
-                this,
-                "Login successful! Welcome " + username
-            );
+            JOptionPane.showMessageDialog(this, "Login successful!");
+
+            new MainFrame(client, userId, username).setVisible(true);
+            dispose();
 
             // We will open the Main Menu here later
 
